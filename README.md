@@ -16,6 +16,11 @@ Please install virtualenv from [here](https://pypi.python.org/pypi/virtualenv), 
 * Check the REST the endpoints and understand what has been implemented for the provider application (http://127.0.0.1:5000/)
 * Check the REST the endpoints and understand what has been implemented for the consumer application (http://127.0.0.1:5001/)
 
+## Sample test using pact-python
+
+* Install the pact-python module using ```contract-testing-project/bin/pip install pact-python```
+* Run the sample test application: ```contract-testing-project/bin/python -m unittest test_consumer.py```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
 
